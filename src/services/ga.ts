@@ -17,7 +17,7 @@ interface AnalyticsInterface {
 let ga: AnalyticsInterface = ReactGA;
 
 if (ENABLED) {
-  ga.initialize("UA-149614480-1", {
+  ga.initialize("UA-00000000-1", {
     // debug: process.env.NODE_ENV === "development"
   });
 
